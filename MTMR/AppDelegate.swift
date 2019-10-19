@@ -15,7 +15,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     var isBlockedApp: Bool = false
 
     private var fileSystemSource: DispatchSourceFileSystemObject?
-
+    //Test
     func applicationDidFinishLaunching(_: Notification) {
         // Configure Sparkle
         SUUpdater.shared().automaticallyDownloadsUpdates = false
